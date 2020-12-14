@@ -76,10 +76,11 @@ path {
 
 #instructions {
     margin-left: 7%;
+    margin-top: 1%;
     display: inline-block;
     vertical-align: top;
     font-size: 18px;
-    color:#F2EDD7;
+    color:#F9F6F0;
 }
 
 #details-div {
