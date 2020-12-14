@@ -86,7 +86,7 @@ d3.csv("labels.csv", function(data){
             .attr("y",y)
             .attr("x",205)
             .on("mousemove", function (t) {
-                d3.selectAll(`#${label}rect`).style("stroke","#005B4B").style("stroke-width","3px")
+                d3.selectAll(`#${label}rect`).style("stroke","#4B8077").style("stroke-width","3px")
                 d3.select("#certain_value").text(`${element.percent}%`)
                 d3.select("#certain_text1").text(`Banned at`)
                 d3.select("#certain_text2").text(`of schools`)
