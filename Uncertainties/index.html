@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dress Codes</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<div>
+    <div id="title">
+        <header>Dressing Down Dress Codes</header>
+        <p id="instructions">Hover over each label to see where it’s placed on the body. Certain terms are permanently represented on the forms, while an estimate of the uncertain locations will only appear when selected</p>
+    </div>
+    <div id="legend-div"> 
+        <svg id="legend">
+            <!-- <rect id="help"></rect> -->
+            <line x1="37%" y1="35%" x2="37%" y2="100%" style="stroke:#F9F6F0;stroke-width:2" />
+            <text class="svg-text" x="20%" y="50%">Uncensored</text>
+            <text class="svg-text" x="40.5%" y="50%">Censorship Rate</text>
+            <rect class="legend" x="24.5%" y="65%"></rect>
+            <rect class="legend" x="40%" y="65%"></rect>
+            <rect class="legend" x="55%" y="65%"></rect>
+            <rect class="legend_opaque" x="40%" y="65%" style="opacity: 20%;"></rect>
+            <rect class="legend_opaque" x="55%" y="65%" style="opacity: 80%;"></rect>
+            <text class="legend_text" id="start_leg" x="40.5%" y="78%">>0%</text>
+            <text class="legend_text" id="end_leg" x="55.1%" y="78%">100%</text>
+            <defs>
+                <marker id="arrowhead" markerWidth="10" markerHeight="7" fill="#F9F6F0"
+                refX="0" refY="3.5" orient="auto">
+                    <polygon points="0 0, 10 3.5, 0 7" />
+                </marker>
+            </defs>
+            <line x1="46%" y1="75%" x2="52.5%" y2="75%" stroke="#F9F6F0"
+            stroke-width="1" marker-end="url(#arrowhead)" />
+        </svg>
+    </div> 
+</div>
+<div>
+    <div id="details-div">
+        <p id="details">Dress codes and the language used to define them have long been a divisive piece of school legislation. Often times the parties in charge of crafting the dress codes use convoluted language to avoid using the anatomically correct terms. While the labels are largely ungendered, the female form is used to display the censorship due to girls being disproportionately “coded”.</p>
+    </div>
+    <div id="my_dataviz">
+        <svg id="viz">
+            <path transform="translate(350,25)" d='M 29.86 134.47 c -0.32 1.86 -0.7 3.72 -0.94 5.6 c -0.72 5.59 -1.11 11.24 -2.11 16.77 c -4.47 24.6 -8.69 49.25 -13.91 73.68 c -1.68 7.85 0.67 14.69 1.52 22 a 20.23 20.23 0 0 1 -0.17 7.38 l -2 -4.11 l -1.69 0.29 l 3 21.84 C 8.52 270.75 5.42 264 5.31 256.7 c -0.33 -23.78 -0.07 -47.56 0 -71.34 a 19.21 19.21 0 0 1 0.87 -5.9 c 4.34 -13.21 2.28 -27 3.83 -40.49 c 1.84 -15.83 4.08 -31.56 9.31 -46.7 c 2.08 -6 6.58 -9.27 12.46 -11.06 c 5.69 -1.73 11.32 -3.67 17 -5.52 c 8.3 -2.71 11.07 -11.4 5.68 -18.27 a 42.56 42.56 0 0 1 -8.8 -24.93 c -0.23 -7 2.31 -14.79 5.74 -21.05 C 55.84 3.35 64.32 1.8 73.16 3.23 C 81.76 4.62 87 10 89.56 18 c 4.06 12.77 1.86 24.95 -4.41 36.51 c -1.84 3.39 -5.33 5.76 -4.84 10.49 c 0.54 5.17 3 9 8 10.64 c 5.49 1.79 10.9 3.94 16.49 5.32 c 9.43 2.33 13 9.46 15.24 17.76 c 5.64 20.95 7.93 42.32 8.29 64 c 0.1 5.53 2.72 11 2.84 16.54 c 0.57 26.09 1.15 52.19 0.65 78.28 c -0.13 6.68 -4.18 13.28 -7.38 19.68 c -0.15 -6.77 3.48 -13.16 0.76 -20.13 c -1.08 1.68 -2 3.11 -2.91 4.53 l -0.94 -0.31 c 0.51 -3.36 0.41 -7 1.64 -10 c 4.21 -10.46 1.21 -20.49 -0.76 -30.75 c -3.23 -16.9 -5.92 -33.9 -8.94 -50.84 C 111.25 158 109 146.31 106 134.22 c -1.81 5.16 -4.18 10.2 -5.29 15.51 c -1.35 6.46 -1.69 13.14 -2.38 19.74 a 48.29 48.29 0 0 0 5.07 27.37 c 5.72 11.54 7.28 24.38 7.89 37.23 A 234.27 234.27 0 0 1 106 295.42 c -3.32 15.2 -6.39 30.45 -9.52 45.69 a 16 16 0 0 0 -0.21 4 c 1.53 31.62 -2.86 62.56 -10 93.26 a 30.78 30.78 0 0 0 4.86 25.56 c 1.07 1.5 2.39 4.34 1.76 5.17 c -1.05 1.39 -3.52 1.89 -5.49 2.33 c -2.52 0.57 -5.15 0.65 -7.72 1 c -3 0.44 -6.82 -2.64 -6.68 -6.44 c 0.27 -7.54 1.43 -15 1.77 -22.57 a 165.68 165.68 0 0 0 -0.31 -17.4 c -1.15 -19.38 -2.69 -38.74 -3.52 -58.13 c -0.25 -5.72 2.1 -11.54 2 -17.27 c -0.85 -32.07 -2.09 -64.12 -3.22 -96.18 a 3.58 3.58 0 0 0 -1.38 -2.76 c -0.52 6.31 -1.34 12.62 -1.52 18.94 c -0.52 18.95 -0.53 37.91 -1.24 56.85 c -0.54 14.47 0.16 28.82 0.88 43.26 c 0.73 14.84 -1.44 29.81 -2.3 44.73 c -0.53 9.11 -1.39 18.23 -1.34 27.35 c 0 7.19 1.5 14.36 1.86 21.56 c 0.28 5.92 -3.13 8.33 -9 7.29 c -2.26 -0.39 -4.63 -0.08 -6.93 -0.31 c -4.79 -0.5 -5.41 -2.21 -3.22 -6.55 a 67.47 67.47 0 0 0 5.4 -13 c 3.23 -12.2 -2.71 -23.41 -4.42 -35.09 C 43.26 394.86 39.28 373 41 350.86 c 0.86 -10.83 -3.81 -20.33 -5.31 -30.56 c -3.27 -22.44 -8.25 -44.73 -10.08 -67.28 c -1.59 -19.47 -0.11 -39.5 8.7 -57.5 c 8.16 -16.68 4.43 -32.91 1 -49.41 c -0.84 -4.06 -2.63 -7.92 -4 -11.88 Z'></path>
+            <path transform="translate(550,25)" d='M 29.86 134.47 c -0.32 1.86 -0.7 3.72 -0.94 5.6 c -0.72 5.59 -1.11 11.24 -2.11 16.77 c -4.47 24.6 -8.69 49.25 -13.91 73.68 c -1.68 7.85 0.67 14.69 1.52 22 a 20.23 20.23 0 0 1 -0.17 7.38 l -2 -4.11 l -1.69 0.29 l 3 21.84 C 8.52 270.75 5.42 264 5.31 256.7 c -0.33 -23.78 -0.07 -47.56 0 -71.34 a 19.21 19.21 0 0 1 0.87 -5.9 c 4.34 -13.21 2.28 -27 3.83 -40.49 c 1.84 -15.83 4.08 -31.56 9.31 -46.7 c 2.08 -6 6.58 -9.27 12.46 -11.06 c 5.69 -1.73 11.32 -3.67 17 -5.52 c 8.3 -2.71 11.07 -11.4 5.68 -18.27 a 42.56 42.56 0 0 1 -8.8 -24.93 c -0.23 -7 2.31 -14.79 5.74 -21.05 C 55.84 3.35 64.32 1.8 73.16 3.23 C 81.76 4.62 87 10 89.56 18 c 4.06 12.77 1.86 24.95 -4.41 36.51 c -1.84 3.39 -5.33 5.76 -4.84 10.49 c 0.54 5.17 3 9 8 10.64 c 5.49 1.79 10.9 3.94 16.49 5.32 c 9.43 2.33 13 9.46 15.24 17.76 c 5.64 20.95 7.93 42.32 8.29 64 c 0.1 5.53 2.72 11 2.84 16.54 c 0.57 26.09 1.15 52.19 0.65 78.28 c -0.13 6.68 -4.18 13.28 -7.38 19.68 c -0.15 -6.77 3.48 -13.16 0.76 -20.13 c -1.08 1.68 -2 3.11 -2.91 4.53 l -0.94 -0.31 c 0.51 -3.36 0.41 -7 1.64 -10 c 4.21 -10.46 1.21 -20.49 -0.76 -30.75 c -3.23 -16.9 -5.92 -33.9 -8.94 -50.84 C 111.25 158 109 146.31 106 134.22 c -1.81 5.16 -4.18 10.2 -5.29 15.51 c -1.35 6.46 -1.69 13.14 -2.38 19.74 a 48.29 48.29 0 0 0 5.07 27.37 c 5.72 11.54 7.28 24.38 7.89 37.23 A 234.27 234.27 0 0 1 106 295.42 c -3.32 15.2 -6.39 30.45 -9.52 45.69 a 16 16 0 0 0 -0.21 4 c 1.53 31.62 -2.86 62.56 -10 93.26 a 30.78 30.78 0 0 0 4.86 25.56 c 1.07 1.5 2.39 4.34 1.76 5.17 c -1.05 1.39 -3.52 1.89 -5.49 2.33 c -2.52 0.57 -5.15 0.65 -7.72 1 c -3 0.44 -6.82 -2.64 -6.68 -6.44 c 0.27 -7.54 1.43 -15 1.77 -22.57 a 165.68 165.68 0 0 0 -0.31 -17.4 c -1.15 -19.38 -2.69 -38.74 -3.52 -58.13 c -0.25 -5.72 2.1 -11.54 2 -17.27 c -0.85 -32.07 -2.09 -64.12 -3.22 -96.18 a 3.58 3.58 0 0 0 -1.38 -2.76 c -0.52 6.31 -1.34 12.62 -1.52 18.94 c -0.52 18.95 -0.53 37.91 -1.24 56.85 c -0.54 14.47 0.16 28.82 0.88 43.26 c 0.73 14.84 -1.44 29.81 -2.3 44.73 c -0.53 9.11 -1.39 18.23 -1.34 27.35 c 0 7.19 1.5 14.36 1.86 21.56 c 0.28 5.92 -3.13 8.33 -9 7.29 c -2.26 -0.39 -4.63 -0.08 -6.93 -0.31 c -4.79 -0.5 -5.41 -2.21 -3.22 -6.55 a 67.47 67.47 0 0 0 5.4 -13 c 3.23 -12.2 -2.71 -23.41 -4.42 -35.09 C 43.26 394.86 39.28 373 41 350.86 c 0.86 -10.83 -3.81 -20.33 -5.31 -30.56 c -3.27 -22.44 -8.25 -44.73 -10.08 -67.28 c -1.59 -19.47 -0.11 -39.5 8.7 -57.5 c 8.16 -16.68 4.43 -32.91 1 -49.41 c -0.84 -4.06 -2.63 -7.92 -4 -11.88 Z'></path>
+            <text class="svg-text" id="certain_value" x="290px" y="100px"></text>
+            <text class="svg-text" id="certain_text1" x="290px" y="60px"></text>
+            <text class="svg-text" id="certain_text2" x="290px" y="120px"></text>
+            <text class="svg-text" id="uncertain_value" x="750px" y="100px"></text>
+            <text class="svg-text" id="uncertain_text1" x="750px" y="60px"></text>
+            <text class="svg-text" id="uncertain_text2" x="750px" y="120px"></text>
+            <text class="svg-text" x="230" y="160" style="writing-mode: tb; font-size: 35px" rotate=-90 letter-spacing="20">CERTAIN</text>
+            <text class="svg-text" x="820" y="115" style="writing-mode: tb; font-size: 35px" rotate=-90 letter-spacing="20">UNCERTAIN</text>
+            <text class="svg-text" x="418" y="525" style="text-anchor: middle;">FRONT</text>
+            <text class="svg-text" x="618" y="525" style="text-anchor: middle;">BACK</text>
+            <a href="https://github.com/amina-brown/information-aesthetics/tree/gh-pages/Uncertainties"><text x="87%" y="97%" style="color: #F2EDD7; font-size:small">Methodology</text></a>
+        </svg>
+    </div>
+</div>
+    <script src="https://d3js.org/d3.v4.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+

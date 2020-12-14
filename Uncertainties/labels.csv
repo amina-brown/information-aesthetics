@@ -1,0 +1,39 @@
+label,percent,uncertain,back,number,height,width,x,y
+midsection midriff,91.2,0,2,1,75,83,377,180
+cleavage,28.4,0,0,1,30,15,411,148
+back,19.8,0,1,1,130,76,580,100
+breasts chest,18.5,0,0,1,80,76,380,100
+buttocks,14.5,0,1,1,55,89,574,230
+shoulders,10.2,0,2,2,20,20,368,102
+torso,8.8,0,2,1,130,76,380,100
+sides,4,0,2,2,80,15,380,150
+inappropriate amounts of skin,3.2,1,2,1,480,140,350,20
+genitals,1.6,0,0,1,20,20,409,260
+armpits,1.1,0,2,2,15,15,373,150
+hips,1.1,0,2,2,40,20,375,220
+skin above mid-thigh,1.1,1,2,1,300,140,350,20
+private parts,0.5,1,0,1,20,20,409,260
+body,0.5,1,2,1,480,140,350,20
+other areas,0.5,1,2,1,480,140,350,20
+excessive skin,0.5,1,2,1,480,140,350,20
+lower back,0.5,0,0,1,30,87,575,215
+waist,0.5,0,2,1,20,72,382,200
+shoulder blades,0.3,0,1,2,40,10,588,110
+other appendages,0.3,1,2,1,480,140,350,20
+areas typically covered by undergarments,0.3,1,2,1,20,20,409,260
+crotch,0.3,0,0,1,20,20,409,260
+bare skin,0.3,1,2,1,480,140,350,20
+all body parts,0.3,1,2,1,480,140,350,20
+front or back cleavage,0.3,1,2,1,480,140,350,20
+areas expected to be covered,0.3,1,2,1,480,140,350,20
+anatomical details,0.3,1,2,1,480,140,350,20
+other body parts,0.3,1,2,1,480,140,350,20
+the body,0.3,1,2,1,480,140,350,20
+traditionally private parts,0.3,1,0,1,20,20,409,260
+cracks,0.3,1,1,1,40,10,614,240
+navel,0.3,0,0,1,10,10,414,215
+exposed skin above the knee,0.3,1,2,1,350,140,350,20
+shoulders to mid-thigh,0.3,0,2,1,220,140,350,100
+overexposed skin,0.3,1,2,1,480,140,350,20
+legs,0.3,0,2,1,200,97,370,260
+nipples,0.3,0,0,2,5,5,400,160
